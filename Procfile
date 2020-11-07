@@ -1,1 +1,1 @@
-web: gunicorn CognitativeConcentration:server
+web: gunicorn app:app --log-file=-
