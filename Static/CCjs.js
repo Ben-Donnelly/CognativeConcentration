@@ -45,7 +45,6 @@ $("td").click(function() {
       clearInterval(interval);
       x = 0
       while (x < 3) {
-        console.log(x);
         $('#timer').fadeOut(1000).fadeIn(1000);
         $('#secs').fadeOut(1000).fadeIn(1000);
         x++;
@@ -68,7 +67,6 @@ $(".about-bar").click(function() {
 
 function printData() {
   var tab = $("#myTable")[0];
-  console.log(tab);
 
   var style = "<style>";
   style = style + "table {width: 100%; margin-left: auto;border-collapse: collapse;margin-right: auto;table-layout: fixed;}";
