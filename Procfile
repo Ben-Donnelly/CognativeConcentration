@@ -1,1 +1,1 @@
-web: gunicorn CognitativeConcentration:app
+web: gunicorn CognitativeConcentration:server
